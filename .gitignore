@@ -1,0 +1,21 @@
+/.gradle
+/build
+.DS_Store
+build/
+/buildSrc/.gradle
+/gradlew.bat
+
+# Eclipse
+/bin/
+.project
+.classpath
+
+# Intellij
+out/
+/.settings/
+profile.iml
+profile.ipr
+profile.iws
+/.datastore
+.idea/
+*.iml
