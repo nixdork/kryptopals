@@ -10,4 +10,11 @@ class Set1Spec : FunSpec({
             challenge1.solve() shouldBe "I'm killing your brain like a poisonous mushroom"
         }
     }
+
+    context("challenge 2") {
+        val challenge2 = Challenge2()
+        test("solution") {
+            challenge2.solve() shouldBe "the kid don't play"
+        }
+    }
 })
